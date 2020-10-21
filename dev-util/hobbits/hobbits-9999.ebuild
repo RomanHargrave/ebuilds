@@ -32,6 +32,10 @@ DEPEND="
 "
 RDEPEND="${DEPEND}"
 
+PATCHES=(
+	"${FILESDIR}/correct-plugin-search-path.patch"
+)
+
 src_prepare() {
 	default
 

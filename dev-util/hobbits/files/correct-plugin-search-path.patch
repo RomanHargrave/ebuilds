@@ -1,0 +1,13 @@
+diff --git a/src/hobbits-core/settingsdata.cpp b/src/hobbits-core/settingsdata.cpp
+index 180bb3a..16ef2a7 100644
+--- a/src/hobbits-core/settingsdata.cpp
++++ b/src/hobbits-core/settingsdata.cpp
+@@ -67,7 +67,7 @@ SettingsData::SettingsData()
+ 
+     m_pluginLoaderSettings.insert(
+             PLUGIN_PATH_KEY,
+-            "../hobbits-plugins:../plugins:plugins:~/.local/share/hobbits/plugins");
++            "/usr/share/hobbits/plugins:~/.local/share/hobbits/plugins");
+     m_pluginLoaderSettings.insert(PLUGIN_BLACKLIST_KEY, QStringList({}));
+     m_pluginLoaderSettings.insert(
+             OPERATOR_DISPLAY_ORDER_KEY,
