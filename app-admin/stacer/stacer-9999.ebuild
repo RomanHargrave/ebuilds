@@ -16,23 +16,19 @@ EGIT_REPO_URI="https://github.com/oguzhaninan/Stacer.git"
 IUSE=""
 
 RDEPEND="
-   sys-apps/systemd
-   net-misc/curl
-   dev-qt/qtcore:5
-   dev-qt/qtgui:5
-   dev-qt/qtwidgets:5
-   dev-qt/qtcharts:5
-   dev-qt/qtsvg:5
-   dev-qt/qtconcurrent:5
+sys-apps/systemd
+net-misc/curl
+dev-qt/qtcore:5
+dev-qt/qtgui:5
+dev-qt/qtwidgets:5
+dev-qt/qtcharts:5
+dev-qt/qtsvg:5
+dev-qt/qtconcurrent:5
 "
 
-DEPEND="
-   ${RDEPEND}
-"
+DEPEND="${RDEPEND}"
 
-BDEPEND="
-   dev-util/cmake
-"
+BDEPEND="dev-util/cmake"
 
 src_install() {
 	default
