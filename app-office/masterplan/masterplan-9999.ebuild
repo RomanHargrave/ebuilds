@@ -1,5 +1,6 @@
 # Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
+
 EAPI=7
 
 inherit autotools git-r3 golang-build
@@ -16,11 +17,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 
 RDEPEND=""
-DEPEND="
-   ${RDEPEND}
-   dev-lang/go
-"
-#BDEPEND="virtual/pkgconfig"
+DEPEND="${RDEPEND} dev-lang/go"
+BDEPEND=""
 
 EGO_PN=github.com/SolarLune/masterplan
 
