@@ -16,7 +16,6 @@ EGIT_REPO_URI="https://github.com/oguzhaninan/Stacer.git"
 IUSE=""
 
 RDEPEND="
-sys-apps/systemd
 net-misc/curl
 dev-qt/qtcore:5
 dev-qt/qtgui:5
