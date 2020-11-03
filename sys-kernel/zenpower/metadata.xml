@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription>
+    zenpower is a kernel module that replaces k10temp and allows extensive
+    monitoring of AMD Zen CPU sensor data
+  </longdescription>
+</pkgmetadata>
