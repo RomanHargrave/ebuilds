@@ -57,7 +57,7 @@ RDEPEND="
 	pulseaudio? ( media-sound/pulseaudio )
 	webrtc? (
 		media-libs/libjpeg-turbo:=
-		~media-libs/tg_owt-0_pre20201228[pulseaudio=]
+		~media-libs/tg_owt-0_pre20201127[pulseaudio=]
 	)
 "
 
