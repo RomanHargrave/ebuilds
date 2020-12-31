@@ -5,18 +5,18 @@ EAPI=7
 
 inherit autotools git-r3
 
-DESCRIPTION="Tool for controlling DDC/CI-enabled displays"
+DESCRIPTION="Monitor database for ddccontrol"
 
 # Homepage, not used by Portage directly but handy for developer reference
-HOMEPAGE="https://github.com/ddccontrol/ddccontrol"
+HOMEPAGE="https://github.com/ddccontrol/ddccontrol-db"
 EGIT_REPO_URI="${HOMEPAGE}.git"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="X"
+IUSE=""
 
-RDEPEND="x11-libs/gtk+:2 app-misc/ddccontrol-db"
-DEPEND="${RDEPEND}"
+DEPEND=""
+DEPEND="${RDEPEND} dev-lang/perl"
 BDEPEND="virtual/pkgconfig"
 
 src_prepare() {
