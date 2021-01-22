@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit meson desktop qmake-utils xdg git-r3
+inherit meson desktop xdg git-r3
 
 DESCRIPTION="Music audio files viewer and analiser"
 HOMEPAGE="https://www.sonicvisualiser.org/"
