@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription>
+    A tool that displays a video clip in sync with an external time source (jack-transport, LTC and MTC).
+    Applications include: soundtrack composition/editing, video monitoring and -installations. 
+  </longdescription>
+  <use>
+    <flag name="glu">
+      Enables OpenGL display, requires <pkg>media-libs/glu</pkg>
+    </flag>
+    <flag name="freetype">
+      Enables OSD, requires <pkg>media-libs/freetype</pkg>
+    </flag>
+    <flag name="osc">
+      Enables open sound control, requires <pkg>media-libs/liblo</pkg>
+    </flag>
+    <flag name="xv">
+      Enables libXv video acceleration, requires <pkg>x11-libs/libXv</pkg>
+    </flag>
+    <flag name="imlib">
+      Enables RGB support, requires <pkg>media-libs/imlib2</pkg>
+    </flag>
+    <flag name="sdl">
+      Uses SDL, requires <pkg>media-libs/libsdl2</pkg>
+    </flag>
+  </use>
+</pkgmetadata>
