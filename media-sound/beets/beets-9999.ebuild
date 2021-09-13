@@ -34,7 +34,7 @@ RDEPEND="
 		>=dev-python/jellyfish-0.7.1[${PYTHON_MULTI_USEDEP}]
 		dev-python/munkres[${PYTHON_MULTI_USEDEP}]
 		>=media-libs/mutagen-1.33[${PYTHON_MULTI_USEDEP}]
-		>=dev-python/python-musicbrainz-ngs-0.4[${PYTHON_MULTI_USEDEP}]
+		>=dev-python/python-musicbrainzngs-0.4[${PYTHON_MULTI_USEDEP}]
 		dev-python/pyyaml[${PYTHON_MULTI_USEDEP}]
 		dev-python/requests-oauthlib[${PYTHON_MULTI_USEDEP}]
 		dev-python/requests[${PYTHON_MULTI_USEDEP}]
