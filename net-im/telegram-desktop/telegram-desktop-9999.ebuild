@@ -1,4 +1,4 @@
-# Copyright 2020-2021 Gentoo Authors
+# Copyright 2020-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -32,7 +32,7 @@ RDEPEND="
 	media-fonts/open-sans
 	media-libs/alsa-lib
 	media-libs/fontconfig:=
-	~media-libs/libtgvoip-2.4.4_p20201030[pulseaudio=]
+	media-libs/libtgvoip[pulseaudio=]
 	media-libs/openal[alsa]
 	media-libs/opus:=
 	media-video/ffmpeg:=[alsa,opus]
