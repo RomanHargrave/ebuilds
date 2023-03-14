@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/sed >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=x11-libs/gtk+:3
+DESCRIPTION=Tool for monitoring AMD Zen CPU sensors
+EAPI=7
+HOMEPAGE=https://github.com/ocerman/zenmonitor
+INHERIT=git-r3
+IUSE=X
+KEYWORDS=~amd64
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=x11-libs/gtk+:3
+SLOT=0
+_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676
+_md5_=f7aefc144f5d73bf12cb8f45dec706ed

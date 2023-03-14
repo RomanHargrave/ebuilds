@@ -1,0 +1,14 @@
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7 >=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.10
+DEFINED_PHASES=compile install prepare test unpack
+DEPEND=dev-lang/go
+DESCRIPTION=Free-form project management software
+EAPI=7
+HOMEPAGE=https://solarlune.itch.io/masterplan
+INHERIT=autotools git-r3 golang-build
+KEYWORDS=~amd64
+LICENSE=MasterPlan-Proprietary
+PROPERTIES=live
+RESTRICT=strip
+SLOT=0
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	f0d3196128225dee3220e65f3371bc7a	git-r3	27e13c09a4c7e4c78ac812f74727e676	golang-base	9f0e420ab37bc55a318d74bab3aae891	golang-build	b689e250dc38d720b04019511cd5806f
+_md5_=a07164f7d4eae0518082476d2b2f0ceb
