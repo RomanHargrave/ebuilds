@@ -1,7 +1,7 @@
-# Copyright 2020-2021 Gentoo Authors
+# Copyright 2020-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 inherit desktop cmake xdg-utils git-r3
 
@@ -12,7 +12,8 @@ EGIT_REPO_URI="https://github.com/flameshot-org/flameshot.git"
 LICENSE="FreeArt GPL-3 Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE=""
+
+IUSE="wayland"
 
 DEPEND="
 	dev-qt/qtcore:5
@@ -23,6 +24,7 @@ DEPEND="
 	dev-qt/qtnetwork:5
 	dev-qt/qtdbus:5
 	sys-apps/dbus
+	kde-frameworks/kguiaddons:5
 "
 BDEPEND="
 	dev-qt/linguist-tools:5
@@ -34,6 +36,10 @@ src_prepare() {
 }
 
 src_configure() {
+	local mycmakeargs=(
+		$(usev wayland -DUSE_WAYLAND_CLIPBOARD=ON)
+		$(usev wayland -DUSE_WAYLAND_GRIM=ON)
+	)
 	cmake_src_configure
 }
 
