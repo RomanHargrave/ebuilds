@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=virtual/rust-1.53
+DEFINED_PHASES=compile configure install test unpack
+DESCRIPTION=Light, configurable notification daemon
+EAPI=8
+HOMEPAGE=https://github.com/Toqozz/wired-notify
+INHERIT=git-r3 cargo
+IUSE=debug
+KEYWORDS=amd64
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=sys-apps/dbus x11-libs/cairo x11-libs/pango
+SLOT=0
+_eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	24c947ff5f858625cf0b33c15eed4425	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	cargo	4dede41d64d595673f6da62ab5540fa0
+_md5_=b6b5e90c0d2bc9ad26d7aeb5f6314af5
